@@ -49,5 +49,9 @@ Other than the typical rant hackers and open source people will give you about s
 ##### GitLab
 8. Deploy GitLab
 
+Heavy on customization required: https://docs.gitlab.com/ee/install/kubernetes/gitlab_chart.html
+
 ##### ElasticSearch, LogStash, Kibana
 9. Deploy ELK Stack into the cluster
+
+Awesome repo for deploying ELK on Kube: https://github.com/kayrus/elk-kubernetes
