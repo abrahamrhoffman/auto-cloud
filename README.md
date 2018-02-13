@@ -41,19 +41,15 @@ Other than the typical rant hackers and open source people will give you about s
 
 [![kubernetes-cloud](http://img.youtube.com/vi/hXLanHLcAEQ/0.jpg)](http://www.youtube.com/watch?v=hXLanHLcAEQ "Kubernetes Cloud")
 
-...getting the idea right?
-
 ##### Minio
 7. Deploy Minio into the cluster for AWS S3 Object-like Storage
 
 [![minio](http://img.youtube.com/vi/uj4t3E_KwVs/0.jpg)](http://www.youtube.com/watch?v=uj4t3E_KwVs "Minio")
 
-##### GitLab
+...getting the idea right? 
+
+#### Customization Required
 8. Deploy GitLab
-
-Heavy on customization required: https://docs.gitlab.com/ee/install/kubernetes/gitlab_chart.html
-
-##### ElasticSearch, LogStash, Kibana
+- https://docs.gitlab.com/ee/install/kubernetes/gitlab_chart.html
 9. Deploy ELK Stack into the cluster
-
-Awesome repo for deploying ELK on Kube: https://github.com/kayrus/elk-kubernetes
+- https://github.com/kayrus/elk-kubernetes
