@@ -41,6 +41,8 @@ Other than the typical rant hackers and open source people will give you about s
 
 [![kubernetes-cloud](http://img.youtube.com/vi/hXLanHLcAEQ/0.jpg)](http://www.youtube.com/watch?v=hXLanHLcAEQ "Kubernetes Cloud")
 
+...getting the idea right?
+
 ##### Minio
 7. Deploy Minio into the cluster for AWS S3 Object-like Storage
 
