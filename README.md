@@ -1,6 +1,5 @@
 # auto-cloud
-Automatically provision a production-worthy and fully customizable cloud deployment<br>
-<i>[Demonstrations of infrastructure libraries]</i>
+Automatically provision a fully customizable and production-worthy cloud<br>
 
 #### The pitch for bleeding edge Open Source libraries
 Other than the typical rants hackers and open source people give you about software licensing, just think about the cost savings. Paying a lot of cash on licensing weighs down business agility and creates technical debt. Using all open source libraries in your engineering immediately provides better performance, agility and less cost (financial and otherwise).
