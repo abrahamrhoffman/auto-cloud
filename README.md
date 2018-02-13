@@ -33,6 +33,8 @@ Other than the typical rant hackers and open source people will give you about s
 ##### Ansible
 4. Use Ansible to deploy Kubernetes cluster onto the VMs
 
+[![ansible](http://img.youtube.com/vi/EA7OCNWavWQ/0.jpg)](http://www.youtube.com/watch?v=EA7OCNWavWQ "Ansible")
+
 ##### Kubernetes
 5. Use Calico for Network Firewalling and Namespace control
 6. Deploy MetalLB in ARP mode to provide external IPs (Load Balancer) for the cluster! (siick)
