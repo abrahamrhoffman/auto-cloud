@@ -7,4 +7,4 @@
         user: ubuntu
         state: present
         manage_dir: yes
-        key: "{{ lookup('file', '/home/abe/.ssh/id_rsa.pub') }}"
+        key: "{{ lookup('file', '/home/{user}/.ssh/id_rsa.pub') }}"
