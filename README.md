@@ -44,6 +44,8 @@ Other than the typical rant hackers and open source people will give you about s
 ##### Minio
 7. Deploy Minio into the cluster for AWS S3 Object-like Storage
 
+[![minio](http://img.youtube.com/vi/uj4t3E_KwVs/0.jpg)](http://www.youtube.com/watch?v=uj4t3E_KwVs "Minio")
+
 ##### GitLab
 8. Deploy GitLab
 
