@@ -1,5 +1,5 @@
 # auto-cloud
-Automatically provision a production-worthy and fully customizable cloud deployment
+Automatically provision a production-worthy and fully customizable cloud deployment<br>
 <i>[Demonstrations of infrastructure libraries]</i>
 
 #### The pitch for bleeding edge Open Source libraries
