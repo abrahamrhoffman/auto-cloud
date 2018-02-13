@@ -1,0 +1,21 @@
+---
+  - hosts: master
+    vars:
+      ansible_python_interpreter: "/usr/bin/python3"
+    user: ubuntu
+    gather_facts: yes
+
+    tasks:
+    - shell:
+        cmd: |
+          kubeadm init --pod-network-cidr=192.168.0.0/16
+      become: yes
+      register: kubeInit
+    - debug: msg="{{ kubeInit.stdout }}"
+
+    - shell:
+        cmd: |
+          cat /etc/kubernetes/admin.conf
+      become: yes
+      register: kubeCreds
+    - debug: msg="{{ kubeCreds.stdout }}"

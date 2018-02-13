@@ -1,0 +1,17 @@
+---
+  - hosts: all
+    vars:
+      ansible_python_interpreter: "/usr/bin/python3"
+    user: ubuntu
+    gather_facts: yes
+
+    tasks:
+    - shell: apt-get update -y
+      become: yes
+      register: aptUpdate
+    - debug: msg="{{ aptUpdate.stdout }}"
+
+    - shell: apt-get upgrade -y
+      become: yes
+      register: aptUpgrade
+    - debug: msg="{{ aptUpgrade.stdout }}"

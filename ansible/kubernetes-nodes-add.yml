@@ -1,0 +1,15 @@
+---
+  - hosts: nodes
+    vars:
+      ansible_python_interpreter: "/usr/bin/python3"
+    user: ubuntu
+    gather_facts: yes
+
+    tasks:
+    - shell:
+        cmd: |
+          kubeadm join --token c979d7.59c79f184fe1d710 master.hdyn.int:6443 \
+            --discovery-token-ca-cert-hash sha256:65d05881f9f9030870f06989b1659ec1962ec9c6f3cad967d5778836077a116c
+      become: yes
+      register: kubeInit
+    - debug: msg="{{ kubeInit.stdout }}"
