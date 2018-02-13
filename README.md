@@ -18,6 +18,8 @@ Other than the typical rant hackers and open source people will give you about s
 ##### Packer
 1. Download ISO and build custom image from preseed.cfg. Using Qemu (free)!
 
+[linkname](https://youtu.be/fC3yvUoQvkg)
+
 ##### Terraform
 2. Use the custom image to boot five VMs (the image can also be pushed to bare-metal in raw format)
 
