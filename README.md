@@ -23,6 +23,8 @@ Other than the typical rant hackers and open source people will give you about s
 ##### Terraform
 2. Use the custom image to boot five VMs (the image can also be pushed to bare-metal in raw format)
 
+[![terraform](http://img.youtube.com/vi/vOiPVzaY0FU/0.jpg)](http://www.youtube.com/watch?v=vOiPVzaY0FU "Terraform")
+
 ##### Libvirt/KVM
 3. Linux bridge, KVM Vifs in bridged mode: the VMs draw their IPs from the physical LAN
 
