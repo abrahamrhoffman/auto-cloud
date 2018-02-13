@@ -39,6 +39,8 @@ Other than the typical rant hackers and open source people will give you about s
 5. Use Calico for Network Firewalling and Namespace control
 6. Deploy MetalLB in ARP mode to provide external IPs (Load Balancer) for the cluster! (siick)
 
+[![kubernetes-cloud](http://img.youtube.com/vi/hXLanHLcAEQ/0.jpg)](http://www.youtube.com/watch?v=hXLanHLcAEQ "Kubernetes Cloud")
+
 ##### Minio
 7. Deploy Minio into the cluster for AWS S3 Object-like Storage
 
