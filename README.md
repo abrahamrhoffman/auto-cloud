@@ -28,24 +28,7 @@ Other than the typical rant hackers and open source people will give you about s
 ##### Libvirt/KVM
 3. Linux bridge, KVM Vifs in bridged mode: the VMs draw their IPs from the physical LAN
 
-```
-cat /etc/network/interfaces
-
-auto lo br0
-
-iface lo inet loopback
-iface eth0 inet manual
-
-auto br0
-iface br0 inet static
-   address 10.0.0.250
-   netmask 255.255.255.0
-   dns-nameservers 8.8.8.8 4.2.2.2
-   gateway 10.0.0.1
-   bridge_ports eth0
-   bridge_maxwait 0
-   bridge_fd 0
-```
+[![network](http://img.youtube.com/vi/WcYCrEe7fBE/0.jpg)](http://www.youtube.com/watch?v=WcYCrEe7fBE "Network")
 
 ##### Ansible
 4. Use Ansible to deploy Kubernetes cluster onto the VMs
