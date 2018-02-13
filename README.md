@@ -16,26 +16,26 @@ Other than the typical rant hackers and open source people will give you about s
 - ElasticSearch, LogStash, Kibana : Log aggregation, indexing and beautiful visualization
 
 ##### Packer
-- Download ISO and build custom image from preseed.cfg. Using Qemu (free)!
+1 Download ISO and build custom image from preseed.cfg. Using Qemu (free)!
 
 ##### Terraform
-- Use the custom image to boot five VMs (the image can also be pushed to bare-metal in raw format)
+2 Use the custom image to boot five VMs (the image can also be pushed to bare-metal in raw format)
 
 ##### Libvirt/KVM
-- Linux bridge, KVM Vifs in bridged mode: the VMs draw their IPs from the physical LAN
+3 Linux bridge, KVM Vifs in bridged mode: the VMs draw their IPs from the physical LAN
 
 ##### Ansible
-- Use Ansible to deploy Kubernetes cluster onto the VMs
+4 Use Ansible to deploy Kubernetes cluster onto the VMs
 
 ##### Kubernetes
-- Use Calico for Network Firewalling and Namespace control
-- Deploy MetalLB in ARP mode to provide external IPs (Load Balancer) for the cluster! (siick)
+5 Use Calico for Network Firewalling and Namespace control
+6 Deploy MetalLB in ARP mode to provide external IPs (Load Balancer) for the cluster! (siick)
 
 ##### Minio
-- Deploy Minio into the cluster for AWS S3 Object-like Storage
+7 Deploy Minio into the cluster for AWS S3 Object-like Storage
 
 ##### GitLab
-- Deploy GitLab
+8 Deploy GitLab
 
 ##### ElasticSearch, LogStash, Kibana
-- Deploy ELK Stack into the cluster
+9 Deploy ELK Stack into the cluster
