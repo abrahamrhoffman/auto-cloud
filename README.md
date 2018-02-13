@@ -1,7 +1,9 @@
 # auto-cloud
 Automatically provision a production-worthy and fully customizable cloud deployment
 
-### Description
+#### The pitch for bleeding edge Open Source libraries
+Other than the typical rants hackers and open source people give you about software licensing, just think about the cost savings. Paying a lot of cash on licensing weighs down business agility and creates technical debt. Using all open source libraries in your engineering efforts give you better performance, agility and less cost (financial and otherwise).
+
 All Open Source Libraries: Packer, Terraform, Libvirt, Kubernetes, Calico, MetalLB, Minio, GitLab and ELK Stack<br><br>
 
 The following actions are completed automatically:
