@@ -46,8 +46,6 @@ Other than the typical rant hackers and open source people will give you about s
 
 [![minio](http://img.youtube.com/vi/uj4t3E_KwVs/0.jpg)](http://www.youtube.com/watch?v=uj4t3E_KwVs "Minio")
 
-...getting the idea right? 
-
 #### Customization Required
 8. Deploy GitLab
 - https://docs.gitlab.com/ee/install/kubernetes/gitlab_chart.html
