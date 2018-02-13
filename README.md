@@ -2,7 +2,7 @@
 Automatically provision a fully customizable and production-worthy cloud<br>
 
 #### The pitch for bleeding edge Open Source libraries
-Other than the typical rant hackers and open source people will give you about software licensing, just think about the cost savings. Paying a lot of cash on licensing weighs down business agility and creates technical debt. Using all open source libraries immediately provide better performance, agility and less cost (financial and otherwise).
+Other than the typical rant hackers and open source people will give you about software licensing, just think about the cost savings. Paying a lot of cash on licensing weighs down business agility and creates technical debt. Using the proper open source libraries immediately provides better performance, agility and less cost (financial and otherwise).
 
 #### Use the dope stuff (2018)
 - Packer : Automated OS builds using QEMU
