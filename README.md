@@ -1,6 +1,7 @@
 # auto-cloud
-An automatic production-worthy and fully customizable cloud deployment.<br><br>
+Automatically provision a production-worthy and fully customizable cloud deployment
 
+### Description
 All Open Source Libraries: Packer, Terraform, Libvirt, Kubernetes, Calico, MetalLB, Minio, GitLab and ELK Stack<br><br>
 
 The following actions are completed automatically:
